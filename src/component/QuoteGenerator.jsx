@@ -61,7 +61,7 @@ export default function QuoteGenerator() {
           <div className="flex justify-around items-center">
             <select
               onChange={(e) => handleChoice(e.target.value)}
-              className="appearance-none bg-blue-200 p-2 px-3 rounded-lg mb-2 outline-none w-[170px] bg-[url('../../public/static/icon-down.png')] bg-no-repeat bg-[145px] font-semibold "
+              className="appearance-none bg-blue-200 p-2 px-3 rounded-lg mb-2 outline-none w-[170px] bg-[url('../../public/icon-down.png')] bg-no-repeat bg-[145px] font-semibold "
             >
               <option className="hidden">Select a Category</option>
               {categoriesData.map((data) => (
