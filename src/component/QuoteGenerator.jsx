@@ -1,13 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { categoriesData } from "../data/categories";
 
 export default function QuoteGenerator() {
   const [choice, setChoice] = useState();
   const [quoteData, setQuoteData] = useState([]);
-
-  //   useEffect(() => {
-  //     handleGetQuote();
-  //   }, []);
 
   //Handling Choice
   const handleChoice = (choice) => {
